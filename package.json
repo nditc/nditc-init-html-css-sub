@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "vite"
+    "dev": "vite"
   },
   "devDependencies": {
     "tailwindcss": "^3.4.15"
