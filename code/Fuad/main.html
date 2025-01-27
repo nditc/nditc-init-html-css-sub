@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings Page</title>
+    <!-- Link to CSS files -->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@500&family=Nunito:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    
+</head>
+<body>
+  <!-- Settings Container Section -->
+    <div class="settings-container">
+        <div class="header-wrapper">
+            <div class="logo-nav">
+                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/5928a8f055ab0e6bce2c4a88460fccfbb19e6c573e648dcca1d61babb1264354?placeholderIfAbsent=true&apiKey=58fe75c70cbc4db68554bc2ed919fb77" class="brand-logo" alt="Brand Logo" />
+                <div class="nav-content">
+                    <div class="nav-links">
+                        <div class="back-link" tabindex="0" role="button" onclick="history.back();">← Back</div>
+                        <div class="settings-title">SETTINGS</div>
+                    </div>
+                </div>
+            </div>
+        <div class="homepage-btn" tabindex="0" role="button" onclick="window.location.href='https://www.homepage.com';">
+                <div class="btn-content">
+                    <div class="btn-text">Homepage</div>
+                    <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/b1b25818760ae418fc65201950a4789a0ec8ac2fda6de0813875987aa2851bc4?placeholderIfAbsent=true&apiKey=58fe75c70cbc4db68554bc2ed919fb77" class="btn-icon" alt="" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+  <!-- Event Section -->
+    <div class="event-hero">
+            <div class="event-container">
+              <section class="logo-section">
+                <div class="logo-wrapper">
+                  <div class="logo-content">
+                    <h1 class="logo-title">Event Logo (Hero Section)</h1>
+                    <div class="logo-placeholder" role="img" aria-label="Event logo placeholder"></div>
+                  </div>
+                  <button class="logo-change-btn" tabindex="0">Change Logo</button>
+                </div>
+              </section>
+              
+              <section class="timeline-section">
+                <div class="divider" style="margin: 20px 0;"></div>
+                <div class="date-container">
+            <div class="date-wrapper">
+              <time datetime="2024-01-01" class="date-start">Event Start Date</time>
+              <div class="date-line"></div>
+            </div>
+                    <div class="date-wrapper">
+              <time datetime="2024-01-02" class="date-end">Event End Date</time>
+              <div class="date-line"></div>
+            </div>
+          </div>
+                <div class="divider" style="margin: 20px 0;"></div>
+              </section>
+              
+              <section class="timeline-container">
+                <h2 class="timeline-title">Event Timeline (Hero Section)</h2>
+                <div class="timeline-content">
+                  <div class="timeline-placeholder" role="img" aria-label="Timeline placeholder"></div>
+                  <button class="timeline-change-btn" tabindex="0">Change Timeline</button>
+                </div>
+              </section>
+            </div>
+    </div>
+  
+  <!-- Countdown Section -->
+    <div class="countdown-container" role="timer" aria-label="Event countdown timer">
+    <div class="countdown-wrapper">
+      <div class="countdown-header">
+        <h2 class="countdown-title">Event Countdown</h2>
+        <div class="timer-display">
+          <div class="timer-unit">
+            <span class="timer-number" aria-label="days">00</span>
+            <span class="timer-label">Days</span>
+          </div>
+          <div class="timer-unit">
+            <span class="timer-number" aria-label="hours">00</span>
+            <span class="timer-label">Hours</span>
+          </div>
+          <div class="timer-unit">
+            <span class="timer-number" aria-label="minutes">00</span>
+            <span class="timer-label">Minutes</span>
+          </div>
+          <div class="timer-unit">
+            <span class="timer-number" aria-label="seconds">00</span>
+            <span class="timer-label">Seconds</span>
+          </div>
+        </div>
+      </div>
+      <div class="controls-container">
+        <button class="start-stop-btn" tabindex="0" aria-label="Start or stop countdown">Start/Stop</button>
+        <button class="reset-btn" tabindex="0" aria-label="Reset countdown">Reset</button>
+      </div>
+    </div>
+    </div>
+
+  <!-- Sponsor Section -->
+    <div class="sponsors-wrapper">
+      <div class="sponsors-container">
+        <div class="sponsors-header">
+          <h2 class="sponsors-title">Sponsors</h2>
+          <div class="sponsors-indicator" role="presentation">
+            <button class="add-button">
+              Add <span class="add-icon-circle">+</span>
+            </button>
+          </div>
+        </div>
+        <div class="sponsor-content">
+          <div class="sponsor-details">
+            <div class="sponsor-info">
+              <div class="sponsor-profile">
+                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/08b2affc9f34db02e12501e58c1a9f2cab900fc28b7c544220a495a6e1c75324?placeholderIfAbsent=true&apiKey=58fe75c70cbc4db68554bc2ed919fb77" alt="Legit Banda company logo" class="sponsor-logo"/>
+                <div class="sponsor-text">
+                  <div class="sponsor-type">Engagement Partner</div>
+                  <div class="sponsor-name">Legit Banda</div>
+                  <a href="https://www.thelegitbanda.com" class="sponsor-link" target="_blank" rel="noopener noreferrer">https://www.thelegitbanda.com</a>
+                </div>
+              </div>
+            </div>
+            <div class="action-buttons">
+              <button class="edit-button" title="Edit">
+                <img
+                  src="https://img.icons8.com/?size=100&id=sIsBGR0HOwfh&format=png&color=FFFFFF"
+                  alt="Edit Icon"
+                  class="action-icon"
+                />
+              </button>
+              <button class="delete-button" title="Delete">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/c6c768c86f1a96371256a7b1175fc065d173dd1853135e96862e70b2efee93cb?placeholderIfAbsent=true&apiKey=58fe75c70cbc4db68554bc2ed919fb77"
+                  alt="Delete Icon"
+                  class="action-icon"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
