@@ -1090,14 +1090,9 @@ video {
   font-weight: 700;
 }
 
-.text-secondary-100{
+.text-secondary-200{
   --tw-text-opacity: 1;
-  color: rgb(70 68 106 / var(--tw-text-opacity, 1));
-}
-
-.text-secondary-500{
-  --tw-text-opacity: 1;
-  color: rgb(68 66 107 / var(--tw-text-opacity, 1));
+  color: rgb(171 171 223 / var(--tw-text-opacity, 1));
 }
 
 .text-white{
@@ -1265,8 +1260,9 @@ code{
   content: "";
 } */
 
-.\*\:pt-2 > *{
-  padding-top: 0.5rem;
+.\*\:py-3 > *{
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .\*\:text-start > *{
