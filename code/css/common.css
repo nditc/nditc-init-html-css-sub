@@ -66,6 +66,9 @@ code {
   .Share {
     font-family: Share Tech;
   }
+  .Nunito {
+    font-family: Nunito, Arial, Helvetica, sans-serif;
+  }
   /* to control icons */
   .icn-inline {
     @apply -mt-1 inline;
